@@ -9,5 +9,5 @@ function showPDF(file) {
     window.scrollTo({ top: pdfContainer.offsetTop, behavior: 'smooth' });
 }
 
-level1Btn.addEventListener('click', () => showPDF('level1.pdf'));
-level2Btn.addEventListener('click', () => showPDF('level2.pdf'));
+level1Btn.addEventListener('click', () => showPDF('level1'));
+level2Btn.addEventListener('click', () => showPDF('level2'));
